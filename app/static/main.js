@@ -1,5 +1,6 @@
 const URL_PARAMS = new URLSearchParams(location.search); // Get the querystring (anything after the "?"") of the current URL in the browser
 const CODE = URL_PARAMS.get("code"); // get the "token" parameter from the query string
+const newDiv = webflow.createDOM('div')
 
 // Show an element
 const show = (selector) => {
